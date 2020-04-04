@@ -15,6 +15,3 @@ class EmailAddressParser
   end
 
 end
-
-
-parser = EmailAddressParser.new(email_addresses)
