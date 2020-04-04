@@ -6,12 +6,12 @@
 class EmailAddressParser
   attr_accessor :parse
 
-  def initialize(name)
-    @name = name
+  def initialize(emails)
+    emails = @emails
   end
 
   def parse
-    self.split(" ")
+    @name.split(" ")
   end
 
 end
